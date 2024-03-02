@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjuman College Admission</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            height: 100%;
+            width: 100%;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        
+        .admission-info,
+        .features,
+        .admission-form {
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            color: #007bff;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        #form-content {
+            height: 100vh;
+            width: 100%;
+            background-color: red;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- form page  -->
+    <!-- front page -->
+
+    <div id="main">
+        <header>
+            <h1>Welcome to Anjuman College Admission</h1>
+        </header>
+        <div class="container">
+            <section class="admission-info">
+                <h2>Admission Information</h2>
+                <p>Learn about the admission process, requirements, and deadlines.</p>
+                <a href="#" class="btn" id="btn">Apply Now</a>
+            </section>
+            <section class="admission-process">
+                <h2>Admission Process</h2>
+                <h3>Admissions start with the notification from Directorate of Technical education (DTE) generally after the announcement of SSLC/SSC board results.</h3>
+                <h3>Admission to first year are under:</h3>
+                <ul>
+                    <li><strong>Govt Quota:</strong> The admissions are through central counseling at the nodal centres as per the DTE procedures.</li>
+                    <li><strong>Management Quota:</strong> The procedure followed is as under
+                        <ol>
+                            <li>Invitation of applications in the prescribed institutional format.</li>
+                            <li>Written test.</li>
+                            <li>Allotment of seat through counseling.</li>
+                            <li>Admission with prescribed fees.</li>
+                        </ol>
+                    </li>
+                </ul>
+            </section>
+            <section class="eligibility">
+                <h2>Eligibility</h2>
+                <p>Pass in SSLC/SSC of state govt or Central Govt boards with minimum marks requirements as prescribed by the DTE.</p>
+            </section>
+
+        </div>
+        <footer>
+            <p>&copy; 2024 Anjuman College. All rights reserved.</p>
+        </footer>
+    </div>
+
+
+
+
+    <script>
+        var a = document.getElementById("btn");
+        var b1 = "cs"
+        var b2 = "me"
+        var b3 = "civil"
+        var b4 = "e&c"
+        var b5 = "e&e"
+        var b6 = "PUC"
+        a.addEventListener('click', function() {
+            var branch = prompt("From Which branch you are ? ")
+            if (branch == b1) {
+                alert("The CS seets are full right now")
+            } else if (branch == b2) {
+                alert("Apply to ME")
+                window.location = 'test.html';
+            }
+
+
+
+
+        })
+    </script>
+
+
+</body>
+
+</html>

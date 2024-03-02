@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Courses Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Get <span>PYQ's</span> of Diploma Branches</h1>
+
+    <div class="course">
+        <h2>Computer Science Engineering</h2>
+        <p><img src="./images/computer.png" alt=""></p>
+        <p>Welcome to the Computer Science Department's resource hub, your gateway to a wealth of materials tailored to enhance your understanding and proficiency in various aspects of computer science. Whether you're a novice eager to dive into the fundamentals
+            or a seasoned professional seeking advanced knowledge, our repository has something for everyone.</p>
+        <p>Instructor:Mr. A. P. Jinagi, HOD </p>
+        <table>
+            <caption>Old Question Papers</caption>
+            <tr>
+                <th>Subject</th>
+                <th>Semester</th>
+                <th>Access</th>
+            </tr>
+            <tr>
+                <td>Fundamentals of computer (FOC)</td>
+                <td>1st</td>
+                <td><a target="_blank" href="./pdf's/maths paper 1.pdf">Access</a><br>
+                    <a href="#">Access</a><br>
+                    <a href="#">Access</a><br>
+                    <a href="#">Access</a><br>
+                    <a href="#">Access</a></td>
+            </tr>
+            <tr>
+                <td>Algorithms</td>
+                <td>3rd</td>
+                <td><a href="#">Access</a></td>
+            </tr>
+            <tr>
+                <td>Database Management Systems</td>
+                <td>4th</td>
+                <td><a href="#">Access</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="course">
+        <h2>Civil Engineering</h2>
+        <p>Welcome to the resource center of the Civil Engineering department, your one-stop destination for accessing a diverse array of materials tailored to support your academic and professional pursuits in civil engineering. Here's what you can expect.</p>
+
+        <p>Instructor: Mr. I.C.Haigar, HOD</p>
+        <table>
+            <caption>Old Question Papers</caption>
+            <tr>
+                <th>Subject</th>
+                <th>Semester</th>
+                <th>Access</th>
+            </tr>
+            <tr>
+                <td>Circuit Theory</td>
+                <td>2nd</td>
+                <td><a href="#">Access</a></td>
+            </tr>
+            <tr>
+                <td>Electromagnetic Field Theory</td>
+                <td>3rd</td>
+                <td><a href="#">Access</a></td>
+            </tr>
+            <tr>
+                <td>Power Systems</td>
+                <td>4th</td>
+                <td><a href="#">Access</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Repeat the above structure for other engineering branches -->
+
+    <div class="course">
+        <h2>Common Subjects for All Branches</h2>
+        <table>
+            <caption>Old Question Papers</caption>
+            <tr>
+                <th>Subject</th>
+                <th>Semester</th>
+                <th>Access</th>
+            </tr>
+            <tr>
+                <td>Mathematics</td>
+                <td>1st</td>
+                <td><a href="#">Access</a></td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>1st</td>
+                <td><a href="#">Access</a></td>
+            </tr>
+            <tr>
+                <td>Communication Skills</td>
+                <td>1st</td>
+                <td><a href="#">Access</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        // Add clicking effect to course divs
+        document.querySelectorAll('.course').forEach(item => {
+            item.addEventListener('click', event => {
+                item.style.backgroundColor = '#f9f9f9';
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .course {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .course:hover {
+            transform: translateY(-5px);
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        
+        th,
+        td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+        
+        a:hover {
+            color: #0056b3;
+        }
+        
+        span,
+        caption {
+            color: gold;
+        }
+    </style>
+</head>
+<script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+    (function() {
+        var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/65e29e508d261e1b5f6780ec/1hnujkr25';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+</script>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="logo5.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Course</a></li>
+
+
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()" style="color: gold;"></i>
+        </nav>
+
+        <h1>Courses Get PYQ's</h1>
+    </section>
+
+
+
+
+    <!-- .courses -->
+
+    <h1>Get <span>PYQ's</span> of Diploma Branches</h1>
+
+    <div class="course">
+        <h2>Computer Science Engineering</h2>
+        <p><img src="./images/computer.png" alt=""></p>
+        <p>Welcome to the Computer Science Department's resource hub, your gateway to a wealth of materials tailored to enhance your understanding and proficiency in various aspects of computer science. Whether you're a novice eager to dive into the fundamentals
+            or a seasoned professional seeking advanced knowledge, our repository has something for everyone.</p>
+        <p>Instructor:Mr. A. P. Jinagi, HOD </p>
+        <table>
+            <caption>Old Question Papers</caption>
+            <tr>
+                <th>Subject</th>
+                <th>Semester</th>
+                <th>Access</th>
+            </tr>
+            <tr>
+                <td>Fundamentals of computer (FOC)</td>
+                <td>1st</td>
+                <td><a target="_blank" href="./pdf's/maths paper 1.pdf">Access</a><br>
+                    <a href="#">Access</a><br>
+                    <a href="#">Access</a><br>
+                    <a href="#">Access</a><br>
+                    <a href="#">Access</a></td>
+            </tr>
+            <tr>
+                <td>Algorithms</td>
+                <td>3rd</td>
+                <td><a href="#">Access</a></td>
+            </tr>
+            <tr>
+                <td>Database Management Systems</td>
+                <td>4th</td>
+                <td><a href="#">Access</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="course">
+        <h2>Civil Engineering</h2>
+        <p>Welcome to the resource center of the Civil Engineering department, your one-stop destination for accessing a diverse array of materials tailored to support your academic and professional pursuits in civil engineering. Here's what you can expect.</p>
+
+        <p>Instructor: Mr. I.C.Haigar, HOD</p>
+        <table>
+            <caption>Old Question Papers</caption>
+            <tr>
+                <th>Subject</th>
+                <th>Semester</th>
+                <th>Access</th>
+            </tr>
+            <tr>
+                <td>Circuit Theory</td>
+                <td>2nd</td>
+                <td><a href="#">Access</a></td>
+            </tr>
+            <tr>
+                <td>Electromagnetic Field Theory</td>
+                <td>3rd</td>
+                <td><a href="#">Access</a></td>
+            </tr>
+            <tr>
+                <td>Power Systems</td>
+                <td>4th</td>
+                <td><a href="#">Access</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Repeat the above structure for other engineering branches -->
+
+    <div class="course">
+        <h2>Common Subjects for All Branches</h2>
+        <table>
+            <caption>Old Question Papers</caption>
+            <tr>
+                <th>Subject</th>
+                <th>Semester</th>
+                <th>Access</th>
+            </tr>
+            <tr>
+                <td>Mathematics</td>
+                <td>1st</td>
+                <td><a href="#">Access</a></td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>1st</td>
+                <td><a href="#">Access</a></td>
+            </tr>
+            <tr>
+                <td>Communication Skills</td>
+                <td>1st</td>
+                <td><a href="#">Access</a></td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <!-- footer -->
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About Anjuman Polytechnic</h3>
+                <p>Anjuman Polytechnic is a renowned technical institution committed to providing high-quality education in various disciplines. With a rich history spanning decades, we strive to foster innovation and excellence in our students.</p>
+                <p>Our state-of-the-art campus offers modern facilities and a supportive learning environment. We are dedicated to preparing our graduates for successful careers and lifelong learning.</p>
+            </div>
+
+            <div class="footer-section contact">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li><i class="fa fa-map-marker"></i> NEAR MALASAMUDRA BANGALORE ROAD GADAG - 582 103</li>
+                    <li><i class="fa fa-phone"></i> +91 9448236321</li>
+                    <li><i class="fa fa-envelope"></i> aeipolytech@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Academics</a></li>
+                    <li><a href="admission.html" target="_blank">Admissions</a></li>
+                    <li><a href="#">Research</a></li>
+                    <li><a href="#">Campus Life</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h3>Connect Yousufkhan🚀</h3>
+                <ul>
+                    <li><a href="https://wa.me/7676969002" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/yousufkhan-pathan-03a00a262/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/yousufkhanjpathan/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Anjuman Polytechnic. All Rights Reserved. Designed by <span>YAAR</span></p>
+        </div>
+    </footer>
+
+    <!-- back t -->
+
+    <button id="back-to-top-btn" title="Go to top">
+        <i class="fa-solid fa-arrow-up" ></i>
+      </button>
+
+
+
+    <script src="script.js"></script>
+    <script>
+        document.querySelectorAll('.course').forEach(item => {
+            item.addEventListener('click', event => {
+                item.style.backgroundColor = '#f9f9f9';
+            });
+        });
+    </script>
+</body>
+
+</html>
